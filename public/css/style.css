@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Roboto&display=swap');
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+body{
+	font-size:16px;
+	font-family: 'Roboto',Sans-Serif;
+}
+header{
+	background-color: #ffffff;
+	padding:20px;
+	width:100%;
+	text-transform: uppercase;
+	text-align:center;
+	background-image: url('/imgs/clouds-731260_1920.jpg');
+	background-size: cover;
+	background-position: bottom center;
+	height:70vh;
+	background-color: #9edee8;
+	position: relative;
+}
+header img{
+	width:200px;
+	float:left;
+}
+h1{
+	font-family: 'Fjalla One', serif;
+	color:#ffffff;
+	font-size:50px;
+	background: rgb(59,190,210);
+	background: -webkit-linear-gradient(rgba(59,190,210,1) 0%, rgba(255,204,0,1) 100%);
+	background: -o-linear-gradient(rgba(59,190,210,1) 0%, rgba(255,204,0,1) 100%);
+	background: linear-gradient(rgba(59,190,210,1) 0%, rgba(255,204,0,1) 100%);
+	position:absolute;
+	top:50%;
+	left:50%;
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
+	padding:30px;
+}
+nav{
+	overflow: auto;
+	margin-bottom:30px;
+	float:right;
+	background-color: rgba(255,255,255,0.5)
+}
+nav ul{
+	display: block;
+}
+nav li{
+	display: inline-block;
+	margin:0;
+}
+nav a{
+	padding:20px 30px;
+	text-align:center;
+	transition:all 450ms ease-in;
+	display: block;
+	background-color: transparent;
+	color:#000;
+	text-decoration:none;
+	margin:0;
+	font-size: 20px;
+}
+nav a:hover{
+	background-color: #3bbed2;
+	transition:all 450ms ease-in;
+}
+main .me{
+	width:250px;
+}
+main, footer{
+	padding:35px 30px;
+}
+form{
+	padding:25px;
+	margin:0 auto;
+	margin-bottom:30px;
+	width:500px;
+}
+form input[type="text"]{
+	padding:10px;
+	font-size: 20px;
+	border:1px solid #eee;
+	width:500px;
+}
+form label{
+	display: block;
+	font-size: 25px;
+	color:#000;
+	margin-bottom:5px;
+}
+form button{
+	background: rgb(59,190,210);
+	border:none;
+	padding:10px;
+	font-size: 25px;
+	margin:0;
+	display: block;
+	margin-top:30px;
+	width:500px;
+	text-align:center;
+	color:#ffffff;
+	font-family: 'Fjalla One', serif;
+	text-transform: uppercase;
+	transition:all 450ms ease-in;
+	cursor:pointer;
+}
+form button:hover{
+	background-color: rgba(255,204,0,1);
+	transition:all 450ms ease-in;
+}
+.location{
+	margin-bottom:20px;
+	font-family: 'Fjalla One', serif;
+	text-transform: uppercase;
+}
+footer{
+	border-top:2px solid #eee;
+}
+footer p{
+	color:#ccc;
+}
