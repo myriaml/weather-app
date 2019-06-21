@@ -11,7 +11,7 @@ const forecast = (latitude,longitude, callback) => {
 		}
 		else{
 			const currently = body.currently
-			callback(undefined,body.daily.data[0].summary + ' Il fait présentement: ' + currently.temperature + ' degrés et il y a '+ currently.precipProbability + '% de chance de pleuvoir!')
+			callback(undefined,body.daily.data[0].summary + ' Il fait présentement: ' + currently.temperature + ' degrés et il y a '+ currently.precipProbability + '% de chance de pleuvoir!. Le taux d\'humidité est de: '+body.daily.data[0].humidity)
 		}
 	})
 }
